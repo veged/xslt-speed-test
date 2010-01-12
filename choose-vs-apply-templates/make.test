@@ -1,3 +1,9 @@
 ../xml/s25000_.xml
-    *
-
+    choose.xsl
+    apply-templates.xsl
+    choose-9.xsl
+    apply-templates-9.xsl
+    choose-noout.xsl
+    apply-templates-noout.xsl
+    choose-9-noout.xsl
+    apply-templates-9-noout.xsl
