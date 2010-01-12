@@ -10,17 +10,23 @@
     -----------------------------------------------------------------------------------------------
                                     ../xml/s25000_.xml            run      parse xsl      parse xml
     -----------------------------------------------------------------------------------------------
-                                 without-attribute.xsl         105.56           0.00          65.82
-                                  inline-attribute.xsl         162.20           0.00          64.84
-                                   const-attribute.xsl         132.64           0.00          65.06
-                      const-attribute-and-value-of.xsl         180.64           0.00          65.26
-                                    attribute-node.xsl         191.36           0.00          65.42
+                                 without-attribute.xsl         100.88           0.00          81.72
+                                  inline-attribute.xsl         159.46           0.00          81.64
+                                   const-attribute.xsl         126.98           0.00          81.22
+                                     const-subnode.xsl         135.42           0.00          81.96
+                      const-attribute-and-value-of.xsl         186.76           0.00          81.52
+                                    attribute-node.xsl         206.42           0.00          81.68
+                              const-attribute-node.xsl         134.22           0.00          82.06
 
 
 Выводы
 ------
 
 Лучше `xsl:attribute` не использовать, если есть возможность.
+> **veged:** Добавил const-attribute-node.xsl, по моему стало виднее что основные расходы на value-of,
+> а не на сам `xsl:attribute`. Но всёравно инлайново быстрее.
 
 ЗЫ. Оказывается, что создание атрибута любом способом довольно затратное дело.
+> **veged:** Добавил const-subnode.xsl, чтобы показать что атрибуты самый дешовый способ дописать
+> что-то если "надо".
 

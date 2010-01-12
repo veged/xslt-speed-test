@@ -2,6 +2,8 @@
     without-attribute.xsl
     inline-attribute.xsl
     const-attribute.xsl
+    const-subnode.xsl
     const-attribute-and-value-of.xsl
     attribute-node.xsl
+    const-attribute-node.xsl
 
