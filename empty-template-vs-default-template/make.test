@@ -1,3 +1,11 @@
 ../xml/l50000_.xml
-    *
+    default.xsl
+    empty.xsl
+    empty-plus.xsl
+    empty-plus-2.xsl
+    empty-plus-3.xsl
+    empty-with-param.xsl
+    empty-with-param-without-param.xsl
+    empty-without-param-with-param.xsl
+    empty-without-param-with-param-value.xsl
 

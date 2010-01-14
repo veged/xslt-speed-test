@@ -1,8 +1,13 @@
 -----------------------------------------------------------------------------------------------
                                 ../xml/l50000_.xml            run      parse xsl      parse xml
 -----------------------------------------------------------------------------------------------
-                              empty-with-param.xsl         221.34           0.00         501.04
-                empty-with-param-without-param.xsl          73.16           0.00         501.14
-                                         empty.xsl          73.10           0.00         498.58
-                                       default.xsl          70.48           0.00         500.02
+                                       default.xsl         121.78           0.00         593.44
+                                         empty.xsl         126.50           0.00         594.40
+                                    empty-plus.xsl         122.74           0.00         595.52
+                                  empty-plus-2.xsl         175.56           0.00         594.08
+                                  empty-plus-3.xsl         165.62           0.00         593.24
+                              empty-with-param.xsl         255.06           0.00         594.94
+                empty-with-param-without-param.xsl         127.16           0.00         593.68
+                empty-without-param-with-param.xsl         266.12           0.00         602.54
+          empty-without-param-with-param-value.xsl         277.58           0.00         594.88
 
